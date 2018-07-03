@@ -10,7 +10,14 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 
-
+	const int n = 6;
+	int a[n] = { 2,7,0,18,3 };
+	for (int i = 1; i <= n; i++)
+	{
+		a[2] = (a[1] + a[3])/2;
+		
+	}
+	cout << a[2];
 
 
 
